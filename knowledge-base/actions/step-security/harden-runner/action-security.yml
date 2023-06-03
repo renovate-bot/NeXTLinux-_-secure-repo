@@ -1,0 +1,5 @@
+name: "Harden Runner"
+outbound-endpoints:
+  - fqdn: agent.api.next-linux.systems
+    port: 443
+    reason: to send runtime security metadata

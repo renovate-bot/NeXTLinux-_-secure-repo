@@ -1,0 +1,11 @@
+name: "nextlinux/agent release"
+release-process:
+  artifact-location:
+    github-release:
+      repo: nextlinux/agent
+  pipeline:
+    github-action:
+      repo: nextlinux/agent
+      workflow: release.yml
+    branches: 
+      - main
